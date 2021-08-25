@@ -9,9 +9,20 @@
 </head>
 
 <body>
-    <div id="root">
-        <h1>app-tags</h1>
-        <h1>app-tags</h1>
+    <div class="app-wrapper">
+        <header>
+            <div class="input-group">
+                <input id="input-tag-name" type="text" placeholder="input tag name" />
+                <button id="btn-add">Add</button>
+            </div>
+            <div class="input-group-checkbox">
+                <input id="readonly" type="checkbox" />
+                <label for="readonly">read only</label>
+            </div>
+        </header>
+        <main>
+            <ul id="tags"></ul>
+        </main>
     </div>
 </body>
 
